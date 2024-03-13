@@ -60,7 +60,7 @@ nav a {
 /* header related styles*/
 .header {
     background-color: lightyellow;
-    background-image: url('../images/indeqeex.jpg');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -94,11 +94,21 @@ nav a {
 }
 
 /*main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: bisque;
     margin: 130px 0;
+}
+.about-info-container{
+display: flex;
+justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
