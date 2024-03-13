@@ -98,6 +98,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about {
     padding: 130px;
@@ -111,6 +114,22 @@ justify-content: space-around;
 }
 .about-info{
     text-align: center;
+}
+
+/*Skill related styles*/
+
+.skill-container{
+   display: flex;
+   gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 6px 50px 0px rgb(131, 131, 131);
+}
+.skill-description{
+    color: #757575;
 }
 #what-i-do-description{
     padding: 30px 150px;
